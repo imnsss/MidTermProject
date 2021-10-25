@@ -1,3 +1,3 @@
-# MidTermProject
-# Flappy Bird
-# One-button-game--just need to press 'SPACE'
+# Midterm Project -- Flappy Cat
+ - It is a one-button game that you just need to press 'SPACE' to play the game.
+ - Enjoy it!
