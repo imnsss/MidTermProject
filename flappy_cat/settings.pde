@@ -5,7 +5,7 @@ void StartScreen() {
   textSize(60);
   text("Flappy Cat",width/2,height/2-50);
   textSize(40);
-  text("Use 'SPACE' to move",width/2,height/2+50);
+  text("Use 'SPACE' to jump",width/2,height/2+50);
   textSize(35);
   text("Press SPACE to start",width/2,height/2+150);
 }
