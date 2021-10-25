@@ -8,6 +8,6 @@
  - Added the title at the top left of the program.
  - There are 4 backgrounds, one for startScreen, one for gameOverScreem, and two for the adventure, in which you will see different scenes when you overcome difficulties(obstacles).
  - There are also some comments when you get different scores. Waiting for you to explore it!
- - Moreover, you can adjust the parameters in the program to change the difficulty of the game (I have noted).
+ - Moreover, you can adjust the parameters in the program to change the difficulty of the game (I have added comments on related variables in the program).).
 
 
