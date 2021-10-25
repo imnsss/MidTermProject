@@ -20,11 +20,11 @@ void GameOver() {
   text("Your Score: " + count, width/2,height/2+50);
   textSize(25);
   text("Press 'SPACE' to restart",width/2,height-20);
-  if (count <= 2) {
+  if (count <= 1) {
   textSize(45);
   text("You can do it! Try again! ", width/2,height/2+150);
   }
-  if (count > 2 && count <= 6) {
+  if (count > 1 && count <= 6) {
   textSize(45);
   text("Not bad! ", width/2,height/2+150);
   }
