@@ -1,9 +1,9 @@
 class Cat {
   float x;
   float y;
-  float size = 40;
+  float size = 35;
   float vy = 0;
-  float ay = 0.2;
+  float gravity = 0.35;   //set gravity 
   //PImage cat[];
   PImage cat;
 
@@ -51,7 +51,7 @@ class Cat {
     popStyle();
 
     y += vy;
-    vy += ay;
+    vy += gravity;
   }
 
   void reset() {

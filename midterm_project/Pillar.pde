@@ -2,12 +2,14 @@ class Pillar {
   float initX;
   float topX;
   float topY;
-  float w = 50;
+  float w = 50;  //set width of the pillar
 
   Pillar(float x, float y) {
-    initX = x;
+
     topX = x;
     topY = y;
+    initX = x;
+    
   }
 
   void draw() {
@@ -31,6 +33,7 @@ class Pillar {
     topY = random(100, height-100);
   }
 
+//REF https://forum.processing.org/two/discussion/3580/flappy-code
   boolean detectCollision(Cat b) {
     boolean result = false;
 
@@ -38,12 +41,10 @@ class Pillar {
         collision(b.x, b.y, b.size, b.size, topX, 0, topX+w, topY - 100)) {
       result = true;
     }
-
+    
     return result;
   }
   
-  
-//REF https://forum.processing.org/two/discussion/3580/flappy-code
   boolean collision(float firstX, float firstY, float firstWidth, float firstHeight, float secondULX, float secondULY, float secondBRX, float secondBRY) {
     float hh = firstHeight/2;
     float hw = firstWidth/2;

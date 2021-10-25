@@ -5,8 +5,8 @@ void drawStartScreen() {
   textSize(60);
   text("Flappy Bird",width/2,height/2-50);
   textSize(40);
-  text("use 'SPACE' to move",width/2,height/2+50);
-  text("Press SPACE to start",width/2,height/2+100);
+  text("Use 'SPACE' to jump",width/2,height/2+50);
+  //text("Press SPACE to start",width/2,height/2+100);
 }
 
 void drawGameOver() {
@@ -15,8 +15,9 @@ void drawGameOver() {
   fill(255);
   textSize(60);
   text("You lose",width/2,height/2-50);
-  textSize(60);
+  textSize(50);
   text("Press 'SPACE' to restart",width/2,height/2+50);
+  
   if(keyPressed && key == ' ') {
     cat.reset();
   }
